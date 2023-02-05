@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    max-width: 1300px;
+    margin: 0 auto;
+    background-color: #189CF4;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+#logo {
+    margin: 0;
+    font-size: 36px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+#account-img {
+    width: 35px;
+    height: 35px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #189CF4;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    color: #FFF;
+    padding: 12px 16px;
+    margin: 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #1e8ad2;
+}
+
+.content-container {
+    width: 100%;
+    max-width: 1300px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f1f1f1;
+}
+
+h1 {
+    margin: 40px 0;
+    text-align: center;
+}
+
+form {
+    width: 80%;
+    max-height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+    background-color: #FFF;
+}
+
+select, input[type="date"], input[type="text"] {
+    flex-basis: calc(23% - 20px);
+    height: 30px;
+    padding: 5px;
+    margin: 30px 20px 20px 20px;
+    border-radius: 5px;
+    background-color: #FFF;
+}
+
+input[type="button"] {
+    width: 100px;
+    height: 40px;
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+#carCatalog {
+    display: flex;
+    width: 80%;
+    max-width: 1300px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF;
+}
+
+.carCard {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.carCard ul {
+    margin-bottom: 10px;
+}

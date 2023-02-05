@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 50%;
+    height: 100vh;
+    background-color: #189CF4;
+}
+
+.light-blue-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 350px;
+    padding: 20px;
+}
+
+.light-blue-section p {
+    color: #FFF;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.welcome-text {
+    color: #FFF;
+    text-align: center;
+}
+
+.registration-button {
+    width: 200px;
+    height: 40px;
+    color: #FFF;
+    font-size: 1em;
+    font-weight: bold;
+    border: 1px solid #FFF;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.right-section {
+    width: 50%;
+}
+
+.login-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #F7F7F7;
+    padding: 20px 20px 0 20px;
+    width: 350px;
+    margin: 0 auto;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    height: auto;
+}
+
+.card-header {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.card-body {
+    padding: 20px 20px 0 20px;
+}
+
+.form-group {
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+input[type=email], input[type=password], input[type=submit] {
+    font-size: 1em;
+    flex-basis: 100%;
+    border: 2px solid #EEE;
+    border-radius: 15px;
+    padding: 10px;
+    outline: 0;
+}
+
+.remember {
+    color: rgb(124, 124, 124);
+    margin-left: 10px;
+    font-size: 0.9em;
+}
+
+.g-recaptcha {
+    border-radius: 5px;
+}
+
+.login-button {
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    width: 100%;
+    height: 40px;
+    background-color: #189CF4;
+    border-radius: 15px;
+    border: 0;
+    cursor: pointer;
+}
+
+.recovery {
+    flex-basis: 100%;
+    font-size: 1em;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.recovery a {
+    text-decoration: none;
+}
+
+.recovery a:hover {
+    text-decoration: underline;
+}
+
+.recovery a:visited {
+    color: #189CF4;
+}
+
+.error-message {
+    margin: 0 auto;
+    font-size: 1em;
+    text-align: center;
+    color: #FF0000;
+}
